@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragmentos.RegistrarArticulosFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/idBotonRegistrar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="96dp"
+                android:background="@drawable/redondeo_background"
+                android:text="Registrar Articulo"
+                android:textColor="@color/icons"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/idEditTextEstado" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="87dp"
+                android:layout_height="57dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/articulo512"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="7dp" />
+
+            <EditText
+                android:id="@+id/idEdiTextNombreArticulo"
+                android:layout_width="209dp"
+                android:layout_height="49dp"
+                android:layout_marginTop="12dp"
+                android:ems="10"
+                android:hint="Nombre Articulo"
+                android:inputType="textPersonName"
+                android:textColorHint="@color/colorAccent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.502"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+            <EditText
+                android:id="@+id/idEditTextCodigoArticulo"
+                android:layout_width="209dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="24dp"
+                android:ems="10"
+                android:hint="Codigo Articulo"
+                android:inputType="textPersonName"
+                android:textColorHint="@color/colorAccent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.502"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/idEdiTextNombreArticulo" />
+
+            <EditText
+                android:id="@+id/idEditTextCategoriaArticulo"
+                android:layout_width="209dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="24dp"
+                android:ems="10"
+                android:hint="Categoría"
+                android:inputType="textPersonName"
+                android:textColorHint="@color/colorAccent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.502"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/idEditTextCodigoArticulo" />
+
+            <EditText
+                android:id="@+id/idEditTextPrecio"
+                android:layout_width="136dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="28dp"
+                android:ems="10"
+                android:hint="Precio"
+                android:inputType="numberDecimal"
+                android:textColorHint="@color/colorAccent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.157"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/idEditTextEstado" />
+
+            <EditText
+                android:id="@+id/idEditTextCantidad"
+                android:layout_width="144dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="28dp"
+                android:ems="10"
+                android:hint="Cantidad"
+                android:inputType="numberSigned"
+                android:textColorHint="@color/colorAccent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.843"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/idEditTextEstado" />
+
+            <EditText
+                android:id="@+id/idEditTextEstado"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="Estado"
+                android:inputType="textPersonName"
+                android:textColorHint="@color/colorAccent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.502"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/idEditTextCategoriaArticulo" />
+
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+
+</LinearLayout>

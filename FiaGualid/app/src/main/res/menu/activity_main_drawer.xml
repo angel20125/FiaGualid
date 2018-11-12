@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ubicacion512"
+            android:title="Ubicacion" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/registrararticulo512"
+            android:title="Registrar Articulo" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/listararticulo512"
+            android:title="Listar Todos los Aritculos" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/registrar"
+            android:title="Listar Articulos por atributos" />
+
+    </group>
+
+    <item android:title="Consultas">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ventas512"
+                android:title="Consulta ventas" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

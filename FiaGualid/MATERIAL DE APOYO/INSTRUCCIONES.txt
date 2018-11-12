@@ -1,0 +1,13 @@
+1. se recomienda probar la aplicacion desde un emulador de android, ya que desde el telefono
+hay que ahcer nos pasos adicionales para que el computador donde están los sevicios permita la 
+conexion.
+
+2. Se aconseja tener instalado xampp.
+
+
+3. Una vez instalado xampp colocar la carpeta serviciosWeb en la carpeta htdocs
+
+4.  entrar al panel de phpMyAdmin y importar la bases de datos llamada app_desarrollo.
+
+
+

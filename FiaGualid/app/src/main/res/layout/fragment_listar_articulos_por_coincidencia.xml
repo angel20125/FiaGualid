@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragmentos.RegistrarArticulosFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="132dp"
+                android:background="@color/colorPrimary"
+                app:layout_constraintBottom_toTopOf="@+id/idRecyclerListarAritculosPorCoincidencia"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <Button
+                android:id="@+id/idBotonBuscar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="448dp"
+                android:background="@drawable/redondeo_background"
+                android:text="Buscar Articulo"
+                android:textColor="@color/icons"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="87dp"
+                android:layout_height="57dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/articulo512"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="7dp" />
+
+            <EditText
+                android:id="@+id/idEdiTextNombreArticuloBuscar"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:hint="Nombre Articulo"
+                android:inputType="textPersonName"
+                android:textColorHint="@color/colorAccent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.069"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+            <EditText
+                android:id="@+id/idEditTextCodigoArticuloBuscar"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:hint="Codigo Articulo"
+                android:inputType="textPersonName"
+                android:textColorHint="@color/colorAccent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.866"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+            <EditText
+                android:id="@+id/idEditTextCategoriaArticuloBuscar"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="Categoría"
+                android:inputType="textPersonName"
+                android:textColorHint="@color/colorAccent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.068"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/idEditTextCodigoArticuloBuscar" />
+
+            <EditText
+                android:id="@+id/idEditTextPrecioBuscar"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="Precio"
+                android:inputType="numberDecimal"
+                android:textColorHint="@color/colorAccent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.068"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/idEditTextEstadoBuscar" />
+
+            <EditText
+                android:id="@+id/idEditTextCantidadBuscar"
+                android:layout_width="148dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="Cantidad"
+                android:inputType="numberSigned"
+                android:textColorHint="@color/colorAccent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.886"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/idEditTextEstadoBuscar" />
+
+            <EditText
+                android:id="@+id/idEditTextEstadoBuscar"
+                android:layout_width="147dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:hint="Estado"
+                android:inputType="textPersonName"
+                android:textColorHint="@color/colorAccent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.856"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/idEditTextCodigoArticuloBuscar" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/idRecyclerListarAritculosPorCoincidencia"
+                android:layout_width="match_parent"
+                android:layout_height="214dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="252dp"
+                app:layout_constraintBottom_toTopOf="@+id/idBotonBuscar"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imageView3"
+                app:layout_constraintVertical_bias="1.0" />
+
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+
+</LinearLayout>

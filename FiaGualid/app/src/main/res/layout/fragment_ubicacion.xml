@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragmentos.UbicacionFragment">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="75dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/principalcar512"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.501"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="279dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="40dp"
+                android:text="@string/tituloempresa"
+                android:textColor="@color/primary_text"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.505"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="0dp"
+                android:layout_height="153dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/direccion"
+                android:textColor="@color/primary_text"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="207dp"
+                android:layout_height="90dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/ubicacion512"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.503"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="176dp"
+                android:layout_height="43dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorPrimary"
+                android:text="@string/tituloubiquenos"
+                android:textColor="@color/icons"
+                android:textSize="36sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+" />
+
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v4.widget.NestedScrollView>
+    <!-- TODO: Update blank fragment layout -->
+
+</LinearLayout>

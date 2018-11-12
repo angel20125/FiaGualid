@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Fia Gualid C.A</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Repuesto Fia Gualid C.A</string>
+    <string name="nav_header_subtitle">Avenida Principal de Castillito, Edificio Sandra Elisabeth local N°23, Telefonos:0286-9231061/0286-9230027, RIF:J-30839414-9</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="direccion">RIF:J-30839414-9, ubicada en la Avenida Principal de Castillito, Edificio Sandra Elisabeth local N°23, Telefonos:0286-9231061/0286-9230027</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tituloempresa">Repuesto Fia Gualid C.A</string>
+    <string name="tituloubiquenos">Ubiquenos</string>
+
+</resources>
